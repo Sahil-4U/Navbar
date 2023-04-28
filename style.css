@@ -21,7 +21,7 @@ body {
 .navbar ul li a{
     text-decoration: none;
     margin: 0 10px;
-    color: blue;
+   
 }
 .navbar ul li a:hover{
     color: blue;
@@ -30,10 +30,7 @@ body {
     border-radius: 5px;
     background-color: white;
 }
-.navbar.active{
-    background-color: black;
-    color: white;
-}
+
 .top-container {
   background-image: url("https://images.unsplash.com/photo-1547394765-185e1e68f34e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
   height: 100vh;
@@ -54,7 +51,16 @@ body {
     cursor:progress;
 }
 .text{
-    margin: 10% 2%;
+    margin: 10px 2%;
     border: 1px solid blue;
     padding: 80px;
+}
+.navbar.active {
+    background-color:black;
+}
+.navbar.active ul li a{
+    color: white;
+}
+.navbar.active img{
+ color: white;
 }
